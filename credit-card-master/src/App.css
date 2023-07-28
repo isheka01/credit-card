@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    user-select: none;
+}
+.front-card{
+    position: absolute;
+    display: inline-block;
+    height: 13rem;
+    width: 21rem;
+    top: 3rem;
+    left: 6rem;
+}
+.back-card{
+    position: absolute;
+    display: inline-block;
+    height: 13rem;
+    width: 21rem;
+    top: 17rem;
+    left:13rem;
+}
+
+.image{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.image img{
+    height: 100vh;
+    width: 30vw;
+    margin: 0;
+    padding: 0;
+}
+.form{
+    letter-spacing: 0.5px;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Inter', sans-serif;
+    height: 300px;
+    width: 400px;   
+    display: inline-block;
+    transform: translateY(-30%);
+    margin-left: 250px;
+}
+.form input{
+    padding: 3px;
+    width: 100%;
+    padding-left: 10px;
+    height: 40px;
+    border-radius: 12px;
+}
+.form input::placeholder{
+    font-size: 18px;
+}
+.form label{
+    display: block;
+    font-weight: 600;
+    margin-bottom: 7px;
+}
+.form p{
+    font-size: small;
+    color: red ;
+    /* opacity: 0; */
+    font-weight: 400;
+}
+.date-cvv{
+    display: flex;
+    justify-content: space-between;
+}
+.date-cvv input{
+    text-align: centre;
+}
+.date-cvv *{
+    display: inline-block;
+}
+#date input{
+    width: 65px;
+    margin: 5px;
+    margin-left: 0px;
+}
+button{
+    border: 1px solid black;
+    background-color: #220930;
+    color: white;
+    width: 104.5%;
+    height: 56px;
+    
+}
